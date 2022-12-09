@@ -10,3 +10,11 @@ pip install robotframework
 `pip install robotframework-seleniumlibrary`
 - install Pycharm IDE and IntelliBot plugin
 - download Selenium Browserdrivers for the browsers
+
+
+### Ex1: First test case in Robot Framework
+Test if a website is opened in chrome by running the following command in terminal
+
+`robot -d results Tests/Google/FunctionalTestSuite/GoogleSearch.robot`
+
+then open the report.html file in the Results directory in chrome to see more details.  
