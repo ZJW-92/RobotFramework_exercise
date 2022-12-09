@@ -27,3 +27,6 @@ then open the report.html file in the Results directory in chrome to see more de
 - User clicks the search button
 - The results show on the new webpage
 - Browser is closed
+
+### Ex3: Basics of locating webpage elements 
+[Locating elements on Selenium Library](https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Locating%20elements)
