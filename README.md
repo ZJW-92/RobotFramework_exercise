@@ -9,7 +9,8 @@ pip install robotframework
 - use pip to install SeleniumLibrary: 
 `pip install robotframework-seleniumlibrary`
 - install Pycharm IDE and IntelliBot plugin
-- download Selenium Browserdrivers for the browsers
+- download Selenium Browserdrivers for the browser
+- install ChroPath extension in the browser
 
 
 ### Ex1: First test case in Robot Framework
