@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.9.7 on darwin)" generated="20221209 09:39:48.716" rpa="false" schemaversion="3">
+<suite id="s1" name="BasicSearch" source="/Users/zhijiewei/PycharmProjects/RobotFramework/Tests/eBay/BasicSearch.robot">
+<test id="s1-t1" name="Verify basic search functionality for eBay" line="6">
+<kw name="start testcase">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://www.ebay.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221209 09:39:48.949" level="INFO">Opening browser 'chrome' to base url 'http://www.ebay.com'.</msg>
+<status status="PASS" starttime="20221209 09:39:48.949" endtime="20221209 09:39:53.291"/>
+</kw>
+<status status="PASS" starttime="20221209 09:39:48.949" endtime="20221209 09:39:53.291"/>
+</kw>
+<kw name="verify search results">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://*[@id="gh-ac"]</arg>
+<arg>mobile</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221209 09:39:53.293" level="INFO">Typing text 'mobile' into text field 'xpath://*[@id="gh-ac"]'.</msg>
+<status status="PASS" starttime="20221209 09:39:53.292" endtime="20221209 09:39:53.595"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>xpath://*[@id="gh-btn"]</arg>
+<arg>[Return]</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20221209 09:39:53.596" level="INFO">Sending key(s) ('[Return]',) to xpath://*[@id="gh-btn"] element.</msg>
+<msg timestamp="20221209 09:39:56.160" level="INFO">Sending keys [Return]</msg>
+<status status="PASS" starttime="20221209 09:39:53.596" endtime="20221209 09:39:56.175"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>results for mobile</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20221209 09:39:56.204" level="INFO">Current page contains text 'results for mobile'.</msg>
+<status status="PASS" starttime="20221209 09:39:56.176" endtime="20221209 09:39:56.204"/>
+</kw>
+<status status="PASS" starttime="20221209 09:39:53.291" endtime="20221209 09:39:56.204"/>
+</kw>
+<kw name="end testcase">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221209 09:39:56.205" endtime="20221209 09:39:56.309"/>
+</kw>
+<status status="PASS" starttime="20221209 09:39:56.204" endtime="20221209 09:39:56.310"/>
+</kw>
+<doc>this test case vertify the basic search</doc>
+<tag>Functional</tag>
+<status status="PASS" starttime="20221209 09:39:48.948" endtime="20221209 09:39:56.310"/>
+</test>
+<doc>Basic Search Functionality</doc>
+<status status="PASS" starttime="20221209 09:39:48.718" endtime="20221209 09:39:56.311"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Functional</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="BasicSearch">BasicSearch</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
