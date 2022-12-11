@@ -33,3 +33,5 @@ then open the report.html file in the Results directory in chrome to see more de
 
 ### Ex3: Move user defined keywords to resource directory
 ### Ex4: Test setup and teardown
+### Ex5: Implement Page Object Model (POM) in Robot Framework
+run ` robot -d results Tests/eBay/Verify_search_functionality.robot ` in terminal. 
