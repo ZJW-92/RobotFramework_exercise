@@ -32,3 +32,4 @@ then open the report.html file in the Results directory in chrome to see more de
 [Locating elements on Selenium Library](https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Locating%20elements)
 
 ### Ex3: Move user defined keywords to resource directory
+### Ex4: Test setup and teardown
