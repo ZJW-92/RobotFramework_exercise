@@ -6,10 +6,10 @@ Resource  ../../Resources/PageObjects/SearchResultsPage.robot
 ${search_result}  results for
 ${search_link}  https://www.ebay.com/
 ${search_list}  books   robots  mobiles
-
+&{search_dictionary}  abc=books  bcd=robots  efg=mobiles
 *** Keywords ***
 verify search results
-    Page Should Contain   ${search_result}  ${search_list}[1]
+    Page Should Contain   ${search_result}  ${search_dictionary.bcd}
 search results by different kinds
     Go To    ${search_link}
     Mouse Over  xpath://*[@id="gh-cat"]
