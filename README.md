@@ -37,3 +37,4 @@ then open the report.html file in the Results directory in chrome to see more de
 run ` robot -d results Tests/eBay/Verify_search_functionality.robot ` in terminal. 
 ### Ex6: Implement scala variable, list variable and dictionary variable
 ### Ex7: Refactor webelement locators
+### Ex8: IF/ELSE statement and for loop
