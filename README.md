@@ -40,4 +40,7 @@ run ` robot -d results Tests/eBay/Verify_search_functionality.robot ` in termina
 ### Ex8: IF/ELSE statement and for loop
 ### Ex9: Data driven testing 
 ### Ex10: Jenkins Integration with Robot Framework
-- Test Jenkins 
+- Install Jenkins `brew install jenkins-lts` and `brew services start jenkins-lts` 
+- Upgrade java version to at least 11  `brew install java11` and then `sudo ln -sfn /usr/local/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk` for you to find a java runtime to use and run `java --version` in terminal
+- Run `http://127.0.0.1:8080/` on chrome to start Jenkins 
+- Add SSH key and web hook to connect Jenkins with GitHub account 
