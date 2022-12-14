@@ -22,6 +22,9 @@ Test if a website is opened in chrome by running the following command in termin
 then open the report.html file in the Results directory in chrome to see more details.  
 
 - [Ex2: Convert manual test into automation script](https://github.com/ZJW-92/RobotFramework_exercise/blob/main/ex2/Tests/eBay/BasicSearch.robot)
+
+- [Locating elements on Selenium Library](https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Locating%20elements)
+
 ```
 Steps: 
 - Browser is opened and a shopping website is launched 
@@ -30,7 +33,7 @@ Steps:
 - The results show on the new webpage
 - Browser is closed
 - Basics of locating webpage elements 
-[Locating elements on Selenium Library](https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Locating%20elements)
+
 ```
 
 - [Ex3: Move user defined keywords to resource directory](https://github.com/ZJW-92/RobotFramework_exercise/blob/main/ex3/Tests/eBay/BasicSearch.robot)
