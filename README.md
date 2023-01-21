@@ -1,6 +1,6 @@
-## Robot Framework exercise
+## ***Robot Framework exercises***
 
-### Pre-requisites 
+### ***Pre-requisites***
 - _install Python and pip_
 - use pip to install Robot Framework : 
 ` 
@@ -12,7 +12,7 @@ pip install robotframework
 - _download Selenium Browserdrivers for the browser_
 - _install ChroPath extension in the browser_
 
-### Exercises : 
+### ***Exercises*** : 
 - ***[Ex1: First test case in Robot Framework](https://github.com/ZJW-92/RobotFramework_exercise/blob/main/ex1/Tests/Google/FunctionalTestSuite/GoogleSearch.robot)***: Test if a website is opened in chrome by running the following command in terminal then open the report.html file in the Results directory in chrome to see more details. 
 
 `robot -d results Tests/Google/FunctionalTestSuite/GoogleSearch.robot`
