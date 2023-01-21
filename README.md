@@ -21,16 +21,15 @@ pip install robotframework
 - ***[Ex2: Convert manual test into automation script](https://github.com/ZJW-92/RobotFramework_exercise/blob/main/ex2/Tests/eBay/BasicSearch.robot)***:
 [Locating elements on Selenium Library](https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Locating%20elements)
 
-```
-Steps: 
-- Browser is opened and a shopping website is launched 
-- User clicks the search box and type certain words in the search box
-- User clicks the search button
-- The results show on the new webpage
-- Browser is closed
-- Basics of locating webpage elements 
 
-```
+>Steps: 
+>- 1. Browser is opened and a shopping website is launched 
+>- 2. User clicks the search box and type certain words in the search box
+>- 3. User clicks the search button
+>- 4. The results show on the new webpage
+>- 5. Browser is closed
+>- 6. Basics of locating webpage elements 
+
 
 - ***[Ex3: Move user defined keywords to resource directory](https://github.com/ZJW-92/RobotFramework_exercise/blob/main/ex3/Tests/eBay/BasicSearch.robot)***
 
@@ -38,9 +37,7 @@ Steps:
 
 - ***[Ex5: Implement Page Object Model (POM) in Robot Framework](https://github.com/ZJW-92/RobotFramework_exercise/blob/main/ex5/Tests/eBay/Verify_search_functionality.robot)***
 
-```
-run  robot -d results Tests/eBay/Verify_search_functionality.robot  in terminal. 
-```
+`run  robot -d results Tests/eBay/Verify_search_functionality.robot  in terminal.`
 
 - ***[Ex6: Implement scala variable, list variable and dictionary variable](https://github.com/ZJW-92/RobotFramework_exercise/blob/main/ex6/Tests/eBay/Verify_search_functionality.robot)***
 
