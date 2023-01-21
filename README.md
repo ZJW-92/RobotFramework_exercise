@@ -45,7 +45,7 @@ pip install robotframework
 - ***[Ex8: IF/ELSE statement and for loop](https://github.com/ZJW-92/RobotFramework_exercise/tree/main/ex8/Tests)***
 -  ***[Ex9: Data driven testing ](https://github.com/ZJW-92/RobotFramework_exercise/blob/main/ex9/DataDrivenTesting.robot)***
 - ***[Ex10: Jenkins Integration with Robot Framework]()***
-
+>Steps:
 > - 1. Install Jenkins `brew install jenkins-lts` and `brew services start jenkins-lts` 
 >- 2. Upgrade java version to at least 11  `brew install java11` and then `sudo ln -sfn /usr/local/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk` for you to find a java runtime to use and run `java --version` in terminal
 >- 3. Run `http://127.0.0.1:8080/` on chrome to start, setup and add plugins on Jenkins 
